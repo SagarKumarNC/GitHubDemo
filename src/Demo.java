@@ -67,6 +67,8 @@ ArrayList<String> names=new ArrayList<String>();
 		Long c=names.stream().filter(s->s.equalsIgnoreCase("Abc")).count();
 		
 		System.out.println(c);
+		
+		System.out.println("I am running GitHub");
 	}
 	
 //	public static void main(String args[])
